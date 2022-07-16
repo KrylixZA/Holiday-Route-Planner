@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holiday.Route.Planner.Web", "Holiday.Route.Planner.Web\Holiday.Route.Planner.Web.csproj", "{1CB78D9A-380D-4FC2-B8CD-91E7656A796B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{91E7A080-8B58-496D-B662-DC93F8283179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB78D9A-380D-4FC2-B8CD-91E7656A796B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB78D9A-380D-4FC2-B8CD-91E7656A796B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB78D9A-380D-4FC2-B8CD-91E7656A796B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB78D9A-380D-4FC2-B8CD-91E7656A796B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E7A080-8B58-496D-B662-DC93F8283179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E7A080-8B58-496D-B662-DC93F8283179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E7A080-8B58-496D-B662-DC93F8283179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E7A080-8B58-496D-B662-DC93F8283179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CD38E56-BA58-4156-B5DB-7E834CE8919F}
+	EndGlobalSection
+EndGlobal

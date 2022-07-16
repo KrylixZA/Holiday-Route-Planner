@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  holiday.route.planner.web:
+    image: ${DOCKER_REGISTRY-}holidayrouteplanner
+    build:
+      context: .
+      dockerfile: Holiday.Route.Planner.Web/Dockerfile
